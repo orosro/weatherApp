@@ -1,0 +1,21 @@
+{
+  "name": "weatherapp",
+  "description": "Weather app made with Angular",
+  "main": "index.js",
+  "authors": [
+    "Robert"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1"
+  }
+}

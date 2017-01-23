@@ -1,0 +1,35 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather app made with Angular",
+  "main": "index.js",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "jshint-stylish-ex": "^0.2.0",
+    "plato": "^1.7.0",
+    "server-js": "^0.1.4",
+    "socket.io": "^1.7.2"
+  },
+  "scripts": {
+    "test": "testDev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orosro/weatherApp.git"
+  },
+  "author": "Robert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orosro/weatherApp/issues"
+  },
+  "homepage": "https://github.com/orosro/weatherApp#readme"
+}
