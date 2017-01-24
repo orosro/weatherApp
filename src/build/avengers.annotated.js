@@ -1,1 +1,0 @@
-!function(){"use strict";function e(e,n){function t(){return r().then(function(){n.info("Activated Avengers View")})}function r(){return e.getAvengers().then(function(e){return i.avengers=e,i.avengers})}var i=this;i.avengers=[],i.title="Avengers",t()}e.$inject=["dataservice","logger"],angular.module("app.avengers").controller("Avengers",e)}();

@@ -1,0 +1,64 @@
+/* GENERAL*/
+body {
+  font-size: 16px;
+  padding-bottom: 70px;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 70px; }
+
+.container {
+  width: 100%;
+  max-width: 980px; }
+
+/* HEADER */
+header {
+  background-color: #4e4d4a; }
+
+/* NAVBAR */
+.navbar {
+  margin-bottom: 0; }
+  .navbar a {
+    color: #fff;
+    font-weight: bold; }
+  .navbar .logo-holder {
+    padding: 15px; }
+
+/* INTRO SLIDER*/
+.intro-slider {
+  padding: 50px 0;
+  width: 100%;
+  background-image: url("/assets/img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .intro-slider h1 {
+    text-align: center;
+    color: #fff; }
+
+/* FORECAST ITEMS */
+.forecast-item {
+  padding: 5px;
+  float: left; }
+  .forecast-item-wrap {
+    padding: 5px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    text-align: center; }
+.forecast-title {
+  text-transform: uppercase; }
+.forecast .small-val {
+  display: inline-block;
+  width: 100%;
+  clear: both;
+  font-size: 13px; }
+
+footer {
+  width: 100%;
+  height: 70px;
+  padding: 25px;
+  background-color: #4e4d4a;
+  position: absolute;
+  bottom: 0; }
+  footer * {
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

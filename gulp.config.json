@@ -1,0 +1,23 @@
+{
+    "client": "./src/client",
+    "build": "./build",
+    "buildapp":"./build/app",
+    "buildjs":"./build/assets/js",
+    "buildcss":"./build/assets/css",
+    "vendorjs" : [
+        "./bower_components/jquery/dist/jquery.js",
+        "./bower_components/angular/angular.min.js",
+        "./bower_components/bootstrap/dist/js/bootstrap.js"
+    ],
+    "vendorcss":[
+        "./bower_components/font-awesome/css/font-awesome.min.css",
+        "./bower_components/bootstrap/dist/css/bootstrap.min.css"
+    ],
+    "css": "./src/client/assets/css/style.css",
+    "js": [
+        "./src/client/assets/js/*.js",
+        "./src/client/app/**/*.js"
+    ],
+    "fonts": [""],
+    "images": [""]
+}

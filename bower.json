@@ -6,7 +6,7 @@
     "Robert"
   ],
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/orosro/weatherApp",
   "private": true,
   "ignore": [
     "**/.*",
@@ -16,6 +16,12 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.6.1"
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.1",
+    "normalize-strings": "normalize#^1.1.0",
+    "normalize-css": "^5.0.0"
+  },
+  "devDependencies": {
+    "angular-route": "^1.6.1"
   }
 }

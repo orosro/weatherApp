@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html data-ng-app="weatherViewer">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title data-ng-bind="title"></title>
+    <style>
+        .ng-hide {
+            display: none!important;
+        }
+    </style>
+
+    <link href="/bower_components/normalize-css/normalize.css" rel="stylesheet" />
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-header logo-holder">
+                        <a href="#!/main">Open Weather App</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#!/main">Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="intro-slider">
+            <div class="container">
+                <h1>Very basic weather app <br>that uses "openweathermap" API</h1>
+            </div>
+        </section>
+
+        <section id="main-view" class="main" ng-view>
+
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <span>Open Weather App v1.0</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+    <!-- inject-vendor:js -->
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/bower_components/angular-route/angular-route.min.js"></script>
+
+    <!-- Bootstrapping -->
+    <script src="app/app.module.js"></script>
+
+    <!-- Routes -->
+    <script src="app/shared/app.routes.js"></script>
+
+    <!-- Controllers -->
+    <script src="app/components/mainController.js"></script>
+
+    <!-- Weather Service -->
+     <script src="app/shared/weather.service.js"></script>
+
+    <!-- core module -->
+    <!-- <script src="app/shared/core.module.js"></script> -->
+    <!-- <script src="app/shared/config.js"></script> -->
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-sm-12">
+            <div class="error" ng-show="vm.error">{{vm.error}}</div>
+            <h2>{{vm.title}} {{vm.city}}</h2>
+            <h4 ng-show="vm.coords">Coordinates: {{vm.coords.lat}}  -{{vm.coords.long}} </h4>
+            <span ng-show="vm.coords">For reference: http://openweathermap.org/forecast16#format</span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col col-sm-12 forecast">
+            <div class="row">
+                <div class="forecast-item col col-xs-12 col-sm-4 col-md-2 " data-ng-repeat="item in vm.forecast">
+                    <div class="forecast-item-wrap">
+                        <h4 class="forecast-title small-val">{{item.dt | date : "EEEE"}}</h4>
+                        <span class="forecast-time small-val">{{item.dt | date : "MM/dd/yyyy"}}</span>
+                        <span class="forecast-grades small-val">min {{item.temp.min}}°C <br> max {{item.temp.max}}°C</span>
+                        <span class="forecast-weather small-val">{{item.weather[0].main}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
